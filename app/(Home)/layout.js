@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -18,16 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* <script src="https://cdn.skypack.dev/three@0.129.0/build/three.module.js"></script> */}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
-
-        {/* <script src="https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js"></script>
-
-        <script src="https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js"></script> */}
-      </head>
-
-      <body className="font-body bg-gradient-to-br from-indigo-300/50  to-emerald-300/50 ">
+      <body className="font-body bg-background-950 ">
         <Navbar />
         <main className="relative overflow-hidden ">{children}</main>
         <Footer />

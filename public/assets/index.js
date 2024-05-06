@@ -16,7 +16,7 @@ import uphoto from "./Eureka.webp";
 import car from "./Chem-E-Car.webp";
 import dhyey from "./dhyey.webp";
 import Alchemy from "./Alchemy.webp";
-import EurekaHome from "./Home-image.webp";
+import heroDoodle from "./heroDoodle.png";
 import aa from "./aa.webp";
 import ab from "./ab.webp";
 import ac from "./ac.webp";
@@ -62,7 +62,7 @@ export {
   car,
   dhyey,
   Alchemy,
-  EurekaHome,
+  heroDoodle,
   aa,
   ab,
   ac,
