@@ -1,4 +1,5 @@
 import EventCard from "@/components/EventCard";
+import EventRegistration from "@/components/EventRegistration";
 // import { events } from "@/constants";
 import { getEvent } from "@/sanity/utilsSanity";
 export async function Event() {
@@ -6,7 +7,7 @@ export async function Event() {
 
   return (
     <section className="pt-[75px] min-h-screen w-full px-4 md:px-28">
-      <h1 className="md:text-4xl text-3xl font-bold font-heading text-secondary-200 mt-4">
+      <h1 className="md:text-4xl text-3xl font-bold font-heading text-secondary-200 mt-4 decoration-4  decoration-accent-500 underline underline-offset-8">
         Events
       </h1>
 
@@ -24,6 +25,7 @@ export async function Event() {
           <EventCard key={index} index={index} {...event} />
         ))}
       </div>
+      {/* <EventRegistration /> */}
     </section>
   );
 }

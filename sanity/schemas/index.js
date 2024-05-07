@@ -1,6 +1,6 @@
-import WorkExperience from "./WorkExperience";
 import Events from "./Events";
 import About from "./About";
-const schemas = [WorkExperience, Events, About];
+import Achievement from "./Achievement";
+const schemas = [Events, About, Achievement];
 
 export default schemas;

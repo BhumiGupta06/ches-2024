@@ -19,13 +19,13 @@ export default function Home() {
               sparks progress
             </p>
           </div>
-          <div>
+          {/* <div>
             <Link href={"/"}>
               <button className="mt-6 bg-secondary-600 hover:bg-primary-600/50 text-accent-300 font-bold px-8 py-3 rounded-md">
                 Know More
               </button>
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <div className="md:w-1/2 w-full ">
@@ -35,7 +35,7 @@ export default function Home() {
               src={heroDoodle}
               height={550}
               width={550}
-              alt="Educator"
+              alt="HeroImage"
               priority
             />
           </div>

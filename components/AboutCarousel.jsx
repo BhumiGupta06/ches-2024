@@ -1,8 +1,6 @@
 "use client";
-
 import { Carousel, IconButton } from "./Provider";
 import Image from "next/image";
-import { slides } from "@/constants";
 import CarouselCard from "./CarouselCard";
 const AboutCarousel = ({ about }) => {
   return (

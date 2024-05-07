@@ -11,21 +11,6 @@ const client = createClient({
   useCdn: false,
 });
 
-// const ExperienceQuery = groq`
-// *[_type == "workExperience"] {
-//   title,
-//   description,
-//   duration,
-//   "imageUrl": image.asset->url,
-
-// }
-// `;
-
-// export async function getExperience() {
-//   return client.fetch(ExperienceQuery, {
-//     cache: "no-store",
-//   });
-// }
 const EventQuery = groq`
 *[_type == "events"]{
   title,
@@ -51,4 +36,16 @@ const AboutQuery = groq`
 
 export async function getAbout() {
   return client.fetch(AboutQuery);
+}
+
+const AchievementQuery = groq`
+*[_type == "achievement"]{
+ 
+  description,
+  "ImageUrl": image.asset->url, 
+}
+`;
+
+export async function getAchievement() {
+  return client.fetch(AchievementQuery);
 }

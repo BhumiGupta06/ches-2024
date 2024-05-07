@@ -126,56 +126,56 @@ export const NavLinks = [
 //     link: "https://www.synergiconsrc2023.com/",
 //   },
 // ];
-// export const Achievements = [
-//   {
-//     content:
-//       "ChES achieved the AIChE Global Outstanding Student Chapter Award for the third consecutive year (2022-23). The award is given to Student Chapters showing outstanding participation, enthusiasm, program quality and professionalism.",
+export const Achievements = [
+  {
+    content:
+      "ChES achieved the AIChE Global Outstanding Student Chapter Award for the third consecutive year (2022-23). The award is given to Student Chapters showing outstanding participation, enthusiasm, program quality and professionalism.",
 
-//     img: aa,
-//     link: "https://www.aiche.org/community/awards/outstanding-student-chapter-award",
-//   },
-//   {
-//     content:
-//       "Team Matrix of ChES SVNIT had secured the first position in ChemE Jeopardy competition held in Synergicon (SRC 2023) and got opportunity to represent team Matrix of ChES in Annual Student Conference, 2023.",
+    img: aa,
+    link: "https://www.aiche.org/community/awards/outstanding-student-chapter-award",
+  },
+  {
+    content:
+      "Team Matrix of ChES SVNIT had secured the first position in ChemE Jeopardy competition held in Synergicon (SRC 2023) and got opportunity to represent team Matrix of ChES in Annual Student Conference, 2023.",
 
-//     img: ab,
-//     link: "/",
-//   },
-//   {
-//     content:
-//       "Team Cliff Jumper, represented as the Chem-E-Car team of ChES SVNIT in Synergicon (SRC 2023) and got the opportunity to represent them in Annual Student Conference, 2023.",
+    img: ab,
+    link: "/",
+  },
+  {
+    content:
+      "Team Cliff Jumper, represented as the Chem-E-Car team of ChES SVNIT in Synergicon (SRC 2023) and got the opportunity to represent them in Annual Student Conference, 2023.",
 
-//     img: ac,
-//     link: "/",
-//   },
-//   {
-//     content:
-//       "Mr. Rupesh Yadav, our K-12 Outreach Head, received the Donald F. Othmer Second Year Student Academic Excellence Award.This prestigious recognition acknowledges his outstanding performance.",
+    img: ac,
+    link: "/",
+  },
+  {
+    content:
+      "Mr. Rupesh Yadav, our K-12 Outreach Head, received the Donald F. Othmer Second Year Student Academic Excellence Award.This prestigious recognition acknowledges his outstanding performance.",
 
-//     img: ad,
-//     link: "https://www.aiche.org/community/awards/donald-f-mildred-topp-othmer-scholarship-awards",
-//   },
-//   {
-//     content:
-//       "11 members of ChES got selected in the Executive Student Committee (ESC) of AIChE, with Jatin Agarwal as the Global Director for Regional Subcommittee providing a variety of resources and programming opportunities.",
+    img: ad,
+    link: "https://www.aiche.org/community/awards/donald-f-mildred-topp-othmer-scholarship-awards",
+  },
+  {
+    content:
+      "11 members of ChES got selected in the Executive Student Committee (ESC) of AIChE, with Jatin Agarwal as the Global Director for Regional Subcommittee providing a variety of resources and programming opportunities.",
 
-//     img: ae,
-//     link: "https://www.aiche.org/community/sites/committees/executive-student",
-//   },
-//   {
-//     content:
-//       "The Chem-E-Car of ChES SVNIT Secured Second position in the AZeoRover Competition, at AZeotropy - Asia's largest Chemical Engineering Symposium held on 18th March 2023 at IIT Bombay. ",
+    img: ae,
+    link: "https://www.aiche.org/community/sites/committees/executive-student",
+  },
+  {
+    content:
+      "The Chem-E-Car of ChES SVNIT Secured Second position in the AZeoRover Competition, at AZeotropy - Asia's largest Chemical Engineering Symposium held on 18th March 2023 at IIT Bombay. ",
 
-//     img: af,
-//     link: "https://www.azeotropy.org/competitions/azeorover",
-//   },
-//   {
-//     content:
-//       "The Chem-E-Car team of ChES Secured First Position in the Chem-E-Car Competition of MindBend - Gujarat's largest techno-managerial fest held on 31st March 2023. ",
-//     img: ag,
-//     link: "/",
-//   },
-// ];
+    img: af,
+    link: "https://www.azeotropy.org/competitions/azeorover",
+  },
+  {
+    content:
+      "The Chem-E-Car team of ChES Secured First Position in the Chem-E-Car Competition of MindBend - Gujarat's largest techno-managerial fest held on 31st March 2023. ",
+    img: ag,
+    link: "/",
+  },
+];
 // export const Teams = [
 //   {
 //     id: 2,
@@ -300,30 +300,30 @@ export const NavLinks = [
 //   },
 // ];
 
-export const slides = [
-  {
-    name: `SVNIT`,
-    img: SVNITLOGO,
-    content: `Sardar Vallabhbhai National Institute of Technology (SVNIT) in Surat, Gujarat, India, established in 1961 as a Regional Engineering College (REC), gained "Institute of National Importance" status in 2007. It offers undergraduate programs in Civil, Mechanical, Electrical, Electronics, Computer, Production, and Chemical Engineering, along with postgraduate, M.Sc., and doctoral programs in various engineering disciplines.`,
-  },
-  {
-    name: `AIChE`,
-    img: aiche_logo,
-    content: `AIChE (American Institute of Chemical Engineers) is a professional organization dedicated to advancing the field of chemical engineering. It provides resources, networking opportunities, and professional development for its members, imbibing innovation and knowledge exchange.`,
-  },
-  {
-    name: `ChES`,
-    img: ChesLogo,
-    content: `The Chemical Engineering Society (ChES) at SVNIT, founded on January 16, 2014, and affiliated with AIChE, promotes knowledge sharing and collaboration among future chemical engineers. It organizes events, seminars, and workshops to foster curiosity and understanding in Chemical Engineering.`,
-  },
-  {
-    name: `Mission`,
-    img: ChesLogo,
-    content: `ChES simplifies technical complexities for public understanding, promotes excellence in chemical engineering, and contributes to societal progress by sharing knowledge and empowering informed decisions. Bridging the gap between the technical realm and the broader community, ChES plays a pivotal role in advancing awareness and solutions in chemical engineering.`,
-  },
-  {
-    name: `Vision`,
-    img: ChesLogo,
-    content: `ChES, the Student Technical Club at SVNIT, aims to catalyze excellence in chemical engineering. Our focus includes advancing knowledge, addressing technical challenges, and promoting community engagement. We strive to extend the impact of chemical engineering beyond academia, contributing to real-world challenges and global progress.`,
-  },
-];
+// export const slides = [
+//   {
+//     name: `SVNIT`,
+//     img: SVNITLOGO,
+//     content: `Sardar Vallabhbhai National Institute of Technology (SVNIT) in Surat, Gujarat, India, established in 1961 as a Regional Engineering College (REC), gained "Institute of National Importance" status in 2007. It offers undergraduate programs in Civil, Mechanical, Electrical, Electronics, Computer, Production, and Chemical Engineering, along with postgraduate, M.Sc., and doctoral programs in various engineering disciplines.`,
+//   },
+//   {
+//     name: `AIChE`,
+//     img: aiche_logo,
+//     content: `AIChE (American Institute of Chemical Engineers) is a professional organization dedicated to advancing the field of chemical engineering. It provides resources, networking opportunities, and professional development for its members, imbibing innovation and knowledge exchange.`,
+//   },
+//   {
+//     name: `ChES`,
+//     img: ChesLogo,
+//     content: `The Chemical Engineering Society (ChES) at SVNIT, founded on January 16, 2014, and affiliated with AIChE, promotes knowledge sharing and collaboration among future chemical engineers. It organizes events, seminars, and workshops to foster curiosity and understanding in Chemical Engineering.`,
+//   },
+//   {
+//     name: `Mission`,
+//     img: ChesLogo,
+//     content: `ChES simplifies technical complexities for public understanding, promotes excellence in chemical engineering, and contributes to societal progress by sharing knowledge and empowering informed decisions. Bridging the gap between the technical realm and the broader community, ChES plays a pivotal role in advancing awareness and solutions in chemical engineering.`,
+//   },
+//   {
+//     name: `Vision`,
+//     img: ChesLogo,
+//     content: `ChES, the Student Technical Club at SVNIT, aims to catalyze excellence in chemical engineering. Our focus includes advancing knowledge, addressing technical challenges, and promoting community engagement. We strive to extend the impact of chemical engineering beyond academia, contributing to real-world challenges and global progress.`,
+//   },
+// ];
