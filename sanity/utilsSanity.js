@@ -49,3 +49,30 @@ const AchievementQuery = groq`
 export async function getAchievement() {
   return client.fetch(AchievementQuery);
 }
+
+const CommitteeQuery = groq`
+*[_type == "committee"]{
+  head,
+   committee,
+   "ImageUrl": image.asset->url, 
+    linkedin
+    
+ }
+`;
+
+export async function getCommittee() {
+  return client.fetch(CommitteeQuery);
+}
+const StudentHeadsQuery = groq`
+*[_type == "studentHeads"]{
+  position,
+   name,
+   "ImageUrl": image.asset->url, 
+    linkedin
+    
+ }
+`;
+
+export async function getStudentHeads() {
+  return client.fetch(StudentHeadsQuery);
+}

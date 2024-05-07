@@ -99,6 +99,8 @@ module.exports = withMT({
         heroBg: "url('/assets/herobg.png')",
         "heroBg-mobile1": "url('/assets/herobgMobile1.png')",
         "heroBg-mobile2": "url('/assets/herobgMobile2.png')",
+        alumini: "url('/assets/TimelineWebsite.webp')",
+        aluminiMobile: "url('/assets/TimelineMobile.webp')",
       },
     },
   },

@@ -31,7 +31,7 @@ export const NavLinks = [
     title: "Home",
   },
   {
-    id: "#About",
+    id: "/#About",
     title: "About",
   },
   {
@@ -176,94 +176,94 @@ export const Achievements = [
     link: "/",
   },
 ];
-// export const Teams = [
-//   {
-//     id: 2,
-//     name: "Technical ",
-//     Head: "Dev Sharma",
-//     Linkedin:
-//       "https://www.linkedin.com/in/dev-sharma-4b8b52150?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+export const Teams = [
+  {
+    id: 2,
+    name: "Technical ",
+    Head: "Dev Sharma",
+    Linkedin:
+      "https://www.linkedin.com/in/dev-sharma-4b8b52150?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 3,
-//     name: "Managerial ",
-//     Head: "Aswin Nair",
-//     Linkedin:
-//       "https://www.linkedin.com/in/aswin-nair-750b22222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+  {
+    id: 3,
+    name: "Managerial ",
+    Head: "Aswin Nair",
+    Linkedin:
+      "https://www.linkedin.com/in/aswin-nair-750b22222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 4,
-//     name: "Public Relations ",
-//     Head: "Saumya Jain",
-//     Linkedin: "https://www.linkedin.com/in/saumya-jain-130503227/",
-//   },
+  {
+    id: 4,
+    name: "Public Relations ",
+    Head: "Saumya Jain",
+    Linkedin: "https://www.linkedin.com/in/saumya-jain-130503227/",
+  },
 
-//   {
-//     id: 5,
-//     name: "Social Media ",
-//     Head: "Simran Hirekhan",
-//     Linkedin:
-//       "https://www.linkedin.com/in/simran-hirekhan-300532254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+  {
+    id: 5,
+    name: "Social Media ",
+    Head: "Simran Hirekhan",
+    Linkedin:
+      "https://www.linkedin.com/in/simran-hirekhan-300532254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 6,
-//     name: "Design",
-//     Head: " Ranjana Soni",
-//     Linkedin:
-//       "https://www.linkedin.com/in/ranjana-soni-92b53821b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+  {
+    id: 6,
+    name: "Design",
+    Head: " Ranjana Soni",
+    Linkedin:
+      "https://www.linkedin.com/in/ranjana-soni-92b53821b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 7,
-//     name: "Documentation ",
-//     Head: "Sarita Meena",
-//     Linkedin:
-//       "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
-//   },
+  {
+    id: 7,
+    name: "Documentation ",
+    Head: "Sarita Meena",
+    Linkedin:
+      "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
+  },
 
-//   {
-//     id: 8,
-//     name: "Finance",
-//     Head: "Kushal Doshi",
-//     Linkedin:
-//       "https://www.linkedin.com/in/kushal-doshi-033569241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_mediumandroid_app",
-//   },
+  {
+    id: 8,
+    name: "Finance",
+    Head: "Kushal Doshi",
+    Linkedin:
+      "https://www.linkedin.com/in/kushal-doshi-033569241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_mediumandroid_app",
+  },
 
-//   {
-//     id: 9,
-//     name: "K-12 Outreach",
-//     Head: "Rupesh Yadav",
-//     Linkedin:
-//       "https://www.linkedin.com/in/rupesh-yadav-3440ba22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+  {
+    id: 9,
+    name: "K-12 Outreach",
+    Head: "Rupesh Yadav",
+    Linkedin:
+      "https://www.linkedin.com/in/rupesh-yadav-3440ba22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 10,
-//     name: " Videography",
-//     Head: "Nitin Vaishnav",
-//     Linkedin:
-//       "https://www.linkedin.com/in/nitin-vaishnav-521a79251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+  {
+    id: 10,
+    name: " Videography",
+    Head: "Nitin Vaishnav",
+    Linkedin:
+      "https://www.linkedin.com/in/nitin-vaishnav-521a79251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 11,
-//     name: " Sponsorship",
-//     Head: "Om Pandey",
-//     Linkedin:
-//       "https://www.linkedin.com/in/om-pandey21?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
+  {
+    id: 11,
+    name: " Sponsorship",
+    Head: "Om Pandey",
+    Linkedin:
+      "https://www.linkedin.com/in/om-pandey21?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
 
-//   {
-//     id: 12,
-//     name: "Documentation",
-//     Head: "Sarita Meena",
-//     Linkedin:
-//       "https://www.linkedin.com/in/sarita-meena-6b1bba227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-//   },
-// ];
+  {
+    id: 12,
+    name: "Documentation",
+    Head: "Sarita Meena",
+    Linkedin:
+      "https://www.linkedin.com/in/sarita-meena-6b1bba227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+];
 
 // export const Developers = [
 //   {
