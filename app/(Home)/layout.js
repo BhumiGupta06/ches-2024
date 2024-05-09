@@ -1,10 +1,8 @@
 /* eslint-disable @next/next/no-sync-scripts */
-import { Inter } from "next/font/google";
+
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "ChES-SVNIT",
@@ -14,7 +12,8 @@ export const metadata = {
     icon: "/favicon.ico",
   },
 };
-
+export const revalidate = 180;
+export const dynamic = "force-dynamic";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

@@ -1,6 +1,6 @@
 import { createClient, groq } from "next-sanity";
 
-export const revalidate = 300;
+export const revalidate = 180;
 export const dynamic = "force-dynamic";
 
 const client = createClient({
@@ -23,7 +23,9 @@ const EventQuery = groq`
 `;
 
 export async function getEvent() {
-  return client.fetch(EventQuery);
+  return client.fetch(EventQuery, {
+    cache: "no-cache",
+  });
 }
 
 const AboutQuery = groq`
@@ -35,7 +37,9 @@ const AboutQuery = groq`
 `;
 
 export async function getAbout() {
-  return client.fetch(AboutQuery);
+  return client.fetch(AboutQuery, {
+    cache: "no-cache",
+  });
 }
 
 const AchievementQuery = groq`
@@ -47,7 +51,9 @@ const AchievementQuery = groq`
 `;
 
 export async function getAchievement() {
-  return client.fetch(AchievementQuery);
+  return client.fetch(AchievementQuery, {
+    cache: "no-cache",
+  });
 }
 
 const CommitteeQuery = groq`
@@ -61,7 +67,9 @@ const CommitteeQuery = groq`
 `;
 
 export async function getCommittee() {
-  return client.fetch(CommitteeQuery);
+  return client.fetch(CommitteeQuery, {
+    cache: "no-cache",
+  });
 }
 const StudentHeadsQuery = groq`
 *[_type == "studentHeads"]{
@@ -74,5 +82,7 @@ const StudentHeadsQuery = groq`
 `;
 
 export async function getStudentHeads() {
-  return client.fetch(StudentHeadsQuery);
+  return client.fetch(StudentHeadsQuery, {
+    cache: "no-cache",
+  });
 }

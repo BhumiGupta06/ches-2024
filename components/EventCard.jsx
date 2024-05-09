@@ -26,7 +26,7 @@ export function EventCard({
     <>
       <div
         onClick={handleOpen}
-        className="bg-background-900 rounded-xl cursor-pointer p-6 sm:px-6 hover:shadow-lg hover:shadow-text-500/60 w-full">
+        className="bg-gradient-to-tl from-[#461254] to-[#26062d] bg-opacity-30 backdrop-filter rounded-xl cursor-pointer p-6 sm:px-6 hover:shadow-lg hover:shadow-text-500/60 w-full">
         <Image
           height={200}
           width={300}

@@ -29,7 +29,7 @@ const page = async () => {
         {studentHeads.map((StudentHead) => (
           <div
             key={StudentHead.position}
-            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
+            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl  hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
             <div>
               <div className="text-base sm:text-xl font-bold font-heading text-text-200 ">
                 {StudentHead.position}
@@ -63,7 +63,7 @@ const page = async () => {
         {committees.map((committee) => (
           <div
             key={committee.head}
-            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
+            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
             <div>
               <div className="text-base sm:text-xl font-bold font-heading text-text-200 ">
                 {committee.committee}
