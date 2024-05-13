@@ -3,9 +3,7 @@ import SVNITLOGO from "./svnit-logo.webp";
 import Hero from "./hero.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import Rathore from "./rathore.webp";
-import Jignasa from "./jignasa.webp";
-import Sundar from "./sundar.webp";
+
 import Eureka from "./Eureka.webp";
 import aiche_logo from "./aiche_logo.webp";
 import SIPHON from "./SIPHON.webp";
@@ -51,9 +49,6 @@ export {
   SVNITLOGO,
   menu,
   close,
-  Rathore,
-  Jignasa,
-  Sundar,
   aiche_logo,
   SIPHON,
   Workshop,
