@@ -86,3 +86,13 @@ export async function getStudentHeads() {
     cache: "no-cache",
   });
 }
+const GalleryQuery = groq`*[_type == "gallery"]{
+  
+  "ImageUrl": image.asset->url,   
+}`;
+
+export async function getGallery() {
+  return client.fetch(GalleryQuery, {
+    cache: "no-cache",
+  });
+}

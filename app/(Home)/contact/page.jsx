@@ -10,10 +10,20 @@ function Contact() {
 
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
     setLoading(true);
     emailjs
-      .send("service_6p2qorf", "template_xpmjy7j", data, "hfiF5fVej3ITkNuKZ")
+      .send(
+        "service_6p2qorf",
+        "template_xpmjy7j",
+        {
+          from_name: data.name,
+          to_name: "ChES-SVNIT",
+          from_email: data.email,
+          to_email: "archit499kul@gmail.com",
+          message: data.message,
+        },
+        "hfiF5fVej3ITkNuKZ"
+      )
       .then(() => {
         alert("Message sent successfully");
         setLoading(false);
